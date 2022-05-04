@@ -1,4 +1,4 @@
-<div id='index-header' class="my-container">
+<header id='index-header' class="my-container">
     <div class="img-wrapper">
     <img src="{{ asset('images/dc-logo.png')}}" alt="DC comics logo">
     </div>
@@ -16,5 +16,5 @@
             <li><a href="{{ route('home') }}">SHOP</a></li>
         </ul>
     </nav>
-</div>
-
+</header>
+<div id="jumbotron"></div>

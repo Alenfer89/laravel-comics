@@ -6,7 +6,7 @@
     width: 80%;
     margin: 0 auto;
 }
-div#index-header{
+header#index-header{
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -39,5 +39,11 @@ div#index-header{
             }
         }
     }
-    
+}
+div#jumbotron{
+    height: 50vh;
+    width: 100%;
+    background-image: url('/images/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
