@@ -19,6 +19,7 @@
     <main>
         {{-- creare una base con contenuto per la homepage --}}
         @section('main-content')
+            {{-- aggiungere qui homepage material --}}
             <h1>homepage content here</h1>
         @endsection
         @yield('main-content')
