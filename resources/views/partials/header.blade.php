@@ -1,11 +1,11 @@
 <div id='index-header' class="my-container">
     <div class="img-wrapper">
-    <img src="../assets/img/dc-logo.png" alt="DC comics logo">
+    <img src="{{ asset('images/dc-logo.png')}}" alt="DC comics logo">
     </div>
     <nav>
         <ul>
             <li><a href="{{ route('home') }}">CHARACTERS</a></li>
-            <li><a href="{{ route('comics') }}">COMICS</a></li>
+            <li class="active"><a href="{{ route('comics') }}">COMICS</a></li>
             <li><a href="{{ route('home') }}">MOVIES</a></li>
             <li><a href="{{ route('home') }}">TV</a></li>
             <li><a href="{{ route('home') }}">GAMES</a></li>
