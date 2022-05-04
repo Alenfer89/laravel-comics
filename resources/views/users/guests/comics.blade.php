@@ -33,7 +33,7 @@
                     <div class="img-wrapper">
                         <img src="`../../public/images/{{ $link['img'] }}`" alt="{{ $link['text'] }}">
                     </div>
-                    <h5><a href="#"> {{ $link['text'] }} </a></h5>
+                    <h5><a href="{{ $link['url'] }}"> {{ $link['text'] }} </a></h5>
                 </div>
             @endforeach
             
