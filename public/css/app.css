@@ -130,7 +130,40 @@ div#index-main div#product-background div.my-container button:hover {
   cursor: pointer;
 }
 
-div#index-main div#products-links {
+div#products-links {
   background-color: rgb(2, 130, 249);
+}
+
+div#products-links nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+div#products-links nav div.single-main-link {
+  width: 20%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div#products-links nav div.single-main-link .img-wrapper {
+  width: 25%;
+  padding: 0.4rem;
+}
+
+div#products-links nav div.single-main-link .img-wrapper img {
+  width: 100%;
+  margin-right: 0.5rem;
+}
+
+div#products-links nav div.single-main-link a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
 }
 

@@ -20,10 +20,24 @@
             <button>Load More</button>
         </div>
     </div>
-    <div id="products-links">
-        <div class="my-container">
-            {{-- <NavLinks /> --}}
-        </div>
+</div>
+@endsection
+
+@section('main-content-bottom')
+<div id="products-links">
+    <div class="my-container">
+        {{-- <NavLinks /> --}}
+        <nav>
+            @foreach ($contentLinks as $link)
+                <div class="single-main-link">
+                    <div class="img-wrapper">
+                        <img src="`../../public/images/{{ $link['img'] }}`" alt="{{ $link['text'] }}">
+                    </div>
+                    <h5><a href="#"> {{ $link['text'] }} </a></h5>
+                </div>
+            @endforeach
+            
+        </nav>
     </div>
 </div>
 @endsection

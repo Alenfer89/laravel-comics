@@ -73,7 +73,7 @@ div#index-main{
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: center;
-                
+
                 div.comic-card{
                     width: calc(100% / 6);
                     padding: .5rem;
@@ -111,7 +111,37 @@ div#index-main{
         }
         
     }
-    div#products-links{
-        background-color: $productMainColor;
+}
+div#products-links{
+    background-color: $productMainColor;
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        div.single-main-link{
+            width: calc(100% / 5);
+            padding: 2rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            .img-wrapper{
+                width: 25%;
+                padding: .4rem;
+                img{
+                    width: 100%;
+                    margin-right: 0.5rem;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
     }
 }
