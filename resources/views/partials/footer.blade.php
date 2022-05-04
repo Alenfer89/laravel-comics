@@ -3,42 +3,20 @@
     <div class="top-footer-container">
         <div class="top-footer my-container">
             <div class="lists-container">
-                <div class="list-wrapper">
-                    <h4>DC COMICS</h4>
-                    <ul>
-                        @foreach ($links as $link)
-                            <li>
-                                
-                                @dump($link)
-                            </li>
-                        @endforeach
-                        
-                    </ul>
-                    <h4>SHOP</h4>
-                    <ul>
-                        {{-- <li v-for='(element, index) in shop' :key='index'>
-                            <a :href="element.url"> {{ element.link }} </a>
-                        </li> --}}
-                    </ul>
-                </div>
-                <div class="list-wrapper">
-                    <h4>DC</h4>
-                    <ul>
-                        {{-- <li v-for='(element, index) in dc' :key='index'>
-                            <a :href="element.url"> {{ element.link }} </a>
-                        </li> --}}
-                    </ul>
-                </div>
-                <div class="list-wrapper">
-                    <h4>SITES</h4>
-                    <ul>
-                        {{-- <li v-for='(element, index) in dc' :key='index'>
-                            <a :href="element.url"> {{ element.link }} </a>
-                        </li> --}}
-                    </ul>
-                </div>
-            </div>
-            
+                @foreach ($links as $key => $link)
+                    <div class="list-wrapper">
+                        <h4> {{ $key }}</h4>
+                        <ul>
+                            @foreach ($link as $linkSpecific)
+                                <li>
+                                    <a href="{{ $linkSpecific['url'] }}">
+                                        {{ $linkSpecific['text'] }}
+                                    </a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endforeach
             <div id="logo-background">
             </div>
         </div>

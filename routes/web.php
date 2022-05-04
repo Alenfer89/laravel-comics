@@ -18,13 +18,10 @@ Route::get('/', function () {
     return view('layouts.app', ['links' => $footLinks]);
 })->name('home');
 
-Route::get('/links', function () {
-    $footLinks = config('footer-links');
-    return view('partials.footer', ['links' => $footLinks]);
-})->name('home-footer');
 
 Route::get('/comics', function () {
     $comics = config('comics');
+    $footLinks = config('footer-links');
     $contentLinks = config('products-links');
-    return view('users.guests.comics', ['comics' => $comics, 'contentLinks' => $contentLinks]);
+    return view('users.guests.comics', ['comics' => $comics, 'contentLinks' => $contentLinks, 'links' => $footLinks]);
 })->name('comics');

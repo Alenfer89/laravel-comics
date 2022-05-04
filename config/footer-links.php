@@ -4,117 +4,117 @@
 return [
     'dcComics' => [
         [
-            'link' => 'Characters',
+            'text' => 'Characters',
             'url' =>'#'
         ],
         [
-            'link' => 'Comics',
+            'text' => 'Comics',
             'url' =>'#'
         ],
         [
-            'link' => 'Movies',
+            'text' => 'Movies',
             'url' =>'#'
         ],
         [
-            'link' => 'TV',
+            'text' => 'TV',
             'url' =>'#'
         ],
         [
-            'link' => 'Games',
+            'text' => 'Games',
             'url' =>'#'
         ],
         [
-            'link' => 'Videos',
+            'text' => 'Videos',
             'url' =>'#'
         ],
         [
-            'link' => 'News',
+            'text' => 'News',
             'url' =>'#'
         ],
     ],
     'shop' => [
         [
-            'link' => 'Shop',
+            'text' => 'Shop',
             'url' =>'#'
         ],
         [
-            'link' => 'Shop DC Collectibles',
+            'text' => 'Shop DC Collectibles',
             'url' =>'#'
         ],
     ],
     'dc' => [
         [
-            'link' => 'Terms of use',
+            'text' => 'Terms of use',
             'url' =>'#'
         ],
         [
-            'link' => 'Privacy of policy (News)',
+            'text' => 'Privacy of policy (News)',
             'url' =>'#' 
         ],
         [
-            'link' => 'Ad Choising',
+            'text' => 'Ad Choising',
             'url' =>'#'
         ],
         [
-            'link' => 'Advertising',
+            'text' => 'Advertising',
             'url' =>'#'
         ],
         [
-            'link' => 'Jobs',
+            'text' => 'Jobs',
             'url' =>'#'
         ],
         [
-            'link' => 'Subscription',
+            'text' => 'Subscription',
             'url' =>'#'
         ],
         [
-            'link' => 'Talent Workshop',
+            'text' => 'Talent Workshop',
             'url' =>'#'
         ],
         [
-            'link' => 'CPSP Certificates',
+            'text' => 'CPSP Certificates',
             'url' =>'#'
         ],
         [
-            'link' => 'Rating',
+            'text' => 'Rating',
             'url' =>'#'
         ],
         [
-            'link' => 'Shop Help',
+            'text' => 'Shop Help',
             'url' =>'#'
         ],
         [
-            'link' => 'Contact us',
+            'text' => 'Contact us',
             'url' =>'#'
         ],
     ],
     'sites' => [
         [
-            'link' => 'DC',
+            'text' => 'DC',
             'url' =>'#'
         ],
         [
-            'link' => 'MAD',
+            'text' => 'MAD',
             'url' =>'#'
         ],
         [
-            'link' => 'Magazine',
+            'text' => 'Magazine',
             'url' =>'#'
         ],
         [
-            'link' => 'DC Kids',
+            'text' => 'DC Kids',
             'url' =>'#'
         ],
         [
-            'link' => 'DC Universe',
+            'text' => 'DC Universe',
             'url' =>'#'
         ],
         [
-            'link' => 'DC Power Visa',
+            'text' => 'DC Power Visa',
             'url' =>'#'
         ],
     ],
-    'socials Links' => [
+    'socials texts' => [
         [
             'text' => "Facebook",
             'img' => "footer-facebook.png",
