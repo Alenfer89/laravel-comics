@@ -60,3 +60,77 @@ div#jumbotron {
   background-size: cover;
 }
 
+div#index-main div#product-background {
+  background-color: rgb(28, 28, 28);
+}
+
+div#index-main div#product-background div.my-container {
+  position: relative;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+div#index-main div#product-background div.my-container span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.4rem 2rem;
+  background-color: rgb(2, 130, 249);
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+div#index-main div#product-background div.my-container div.product-container {
+  padding: 2.5rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div#index-main div#product-background div.my-container div.product-container div.comic-card {
+  width: 16.6666666667%;
+  padding: 0.5rem;
+}
+
+div#index-main div#product-background div.my-container div.product-container div.comic-card div.img-thumb-container {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+div#index-main div#product-background div.my-container div.product-container div.comic-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left top;
+     object-position: left top;
+}
+
+div#index-main div#product-background div.my-container div.product-container div.comic-card h5 {
+  text-transform: uppercase;
+}
+
+div#index-main div#product-background div.my-container button {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(2, 130, 249);
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+}
+
+div#index-main div#product-background div.my-container button:hover {
+  cursor: pointer;
+}
+
+div#index-main div#products-links {
+  background-color: rgb(2, 130, 249);
+}
+
