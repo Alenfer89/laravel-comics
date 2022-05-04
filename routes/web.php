@@ -14,8 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts.app');
+    $footLinks = config('footer-links');
+    return view('layouts.app', ['links' => $footLinks]);
 })->name('home');
+
+Route::get('/links', function () {
+    $footLinks = config('footer-links');
+    return view('partials.footer', ['links' => $footLinks]);
+})->name('home-footer');
 
 Route::get('/comics', function () {
     $comics = config('comics');
