@@ -158,6 +158,15 @@ div#products-links nav div.single-main-link a {
   text-transform: uppercase;
 }
 
+section.top-comic-header {
+  background-color: rgb(2, 130, 249);
+  height: 50px;
+}
+
+.ax-comic-container {
+  width: 60%;
+}
+
 div#index-footer {
   color: rgba(255, 255, 255, 0.5);
 }
