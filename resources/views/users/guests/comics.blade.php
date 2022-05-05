@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Our Comics')
+@section('title', '- Our Comics')
 
 @section('main-content')
 <div id="index-main">

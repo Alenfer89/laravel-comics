@@ -1,15 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;
-
-0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-}
-
-.my-container {
-  width: 80%;
-  margin: 0 auto;
 }
 
 header#index-header {
@@ -19,20 +12,16 @@ header#index-header {
   justify-content: space-between;
   align-items: center;
 }
-
 header#index-header .img-wrapper {
   height: 100%;
   padding: 1rem;
 }
-
 header#index-header .img-wrapper img {
   height: 100%;
 }
-
 header#index-header ul {
   list-style-type: none;
 }
-
 header#index-header ul li {
   text-transform: uppercase;
   display: inline-block;
@@ -41,12 +30,10 @@ header#index-header ul li {
   text-align: center;
   border-bottom: 4px solid transparent;
 }
-
 header#index-header ul li.active {
   color: rgb(2, 130, 249);
   border-bottom: 4px solid rgb(2, 130, 249);
 }
-
 header#index-header ul li a {
   text-decoration: none;
   color: black;
@@ -63,13 +50,11 @@ div#jumbotron {
 div#index-main div#product-background {
   background-color: rgb(28, 28, 28);
 }
-
 div#index-main div#product-background div.my-container {
   position: relative;
   color: white;
   padding-bottom: 1rem;
 }
-
 div#index-main div#product-background div.my-container span {
   font-size: 1.5rem;
   font-weight: 700;
@@ -81,7 +66,6 @@ div#index-main div#product-background div.my-container span {
   left: 0;
   transform: translate(0, -50%);
 }
-
 div#index-main div#product-background div.my-container div.product-container {
   padding: 2.5rem 0 0 0;
   display: flex;
@@ -89,18 +73,15 @@ div#index-main div#product-background div.my-container div.product-container {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 div#index-main div#product-background div.my-container div.product-container div.comic-card {
   width: 16.6666666667%;
   padding: 0.5rem;
 }
-
 div#index-main div#product-background div.my-container div.product-container div.comic-card div.img-thumb-container {
   width: 200px;
   height: 200px;
   margin-bottom: 1rem;
 }
-
 div#index-main div#product-background div.my-container div.product-container div.comic-card img {
   width: 100%;
   height: 100%;
@@ -109,11 +90,9 @@ div#index-main div#product-background div.my-container div.product-container div
   -o-object-position: left top;
      object-position: left top;
 }
-
 div#index-main div#product-background div.my-container div.product-container div.comic-card h5 {
   text-transform: uppercase;
 }
-
 div#index-main div#product-background div.my-container button {
   border: none;
   display: block;
@@ -125,7 +104,6 @@ div#index-main div#product-background div.my-container button {
   font-weight: 700;
   padding: 0.5rem 1.5rem;
 }
-
 div#index-main div#product-background div.my-container button:hover {
   cursor: pointer;
 }
@@ -133,14 +111,12 @@ div#index-main div#product-background div.my-container button:hover {
 div#products-links {
   background-color: rgb(2, 130, 249);
 }
-
 div#products-links nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
 }
-
 div#products-links nav div.single-main-link {
   width: 20%;
   padding: 2rem;
@@ -150,17 +126,14 @@ div#products-links nav div.single-main-link {
   justify-content: center;
   align-items: center;
 }
-
 div#products-links nav div.single-main-link .img-wrapper {
   width: 25%;
   padding: 0.4rem;
 }
-
 div#products-links nav div.single-main-link .img-wrapper img {
   width: 100%;
   margin-right: 0.5rem;
 }
-
 div#products-links nav div.single-main-link a {
   text-decoration: none;
   color: white;
@@ -170,20 +143,17 @@ div#products-links nav div.single-main-link a {
 div#index-footer {
   color: rgba(255, 255, 255, 0.5);
 }
-
 div#index-footer div.top-footer-container {
   background-image: url("/images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 div#index-footer div.top-footer-container div.top-footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-
 div#index-footer div.top-footer-container div.top-footer div.lists-container {
   padding: 2rem 0;
   display: flex;
@@ -191,29 +161,23 @@ div#index-footer div.top-footer-container div.top-footer div.lists-container {
   flex-wrap: nowrap;
   justify-content: start;
 }
-
 div#index-footer div.top-footer-container div.top-footer div.list-wrapper {
   margin-right: 1.6rem;
 }
-
 div#index-footer div.top-footer-container div.top-footer h4 {
   color: white;
 }
-
 div#index-footer div.top-footer-container div.top-footer ul {
   margin: 0.8rem 0;
   list-style-type: none;
 }
-
 div#index-footer div.top-footer-container div.top-footer ul li {
   font-size: 0.7rem;
 }
-
 div#index-footer div.top-footer-container div.top-footer ul li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
 }
-
 div#index-footer div.top-footer-container div.top-footer div#logo-background {
   width: 40%;
   min-width: 500px;
@@ -222,11 +186,9 @@ div#index-footer div.top-footer-container div.top-footer div#logo-background {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
 div#index-footer div.bot-footer-container {
   background-color: rgb(48, 48, 48);
 }
-
 div#index-footer div.bot-footer-container div.bot-footer {
   padding: 2rem 0;
   display: flex;
@@ -234,7 +196,6 @@ div#index-footer div.bot-footer-container div.bot-footer {
   justify-content: space-between;
   align-items: center;
 }
-
 div#index-footer div.bot-footer-container div.bot-footer button {
   background-color: transparent;
   font-weight: 700;
@@ -242,18 +203,19 @@ div#index-footer div.bot-footer-container div.bot-footer button {
   padding: 0.8rem;
   border: 2px solid rgb(2, 130, 249);
 }
-
 div#index-footer div.bot-footer-container div.bot-footer h4 {
   color: rgb(2, 130, 249);
 }
-
 div#index-footer div.bot-footer-container div.bot-footer div.socials-container {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
 div#index-footer div.bot-footer-container div.bot-footer div.socials-container img {
   margin-left: 2rem;
 }
 
+.my-container {
+  width: 80%;
+  margin: 0 auto;
+}

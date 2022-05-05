@@ -14,14 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $footLinks = config('footer-links');
-    return view('layouts.app', ['links' => $footLinks]);
+    return view('users.guests.home');
 })->name('home');
 
 
 Route::get('/comics', function () {
     $comics = config('comics');
-    $footLinks = config('footer-links');
     $contentLinks = config('products-links');
-    return view('users.guests.comics', ['comics' => $comics, 'contentLinks' => $contentLinks, 'links' => $footLinks]);
+    return view('users.guests.comics', ['comics' => $comics, 'contentLinks' => $contentLinks]);
 })->name('comics');
