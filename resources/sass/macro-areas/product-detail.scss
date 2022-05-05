@@ -42,6 +42,7 @@ div#comic{
     }
     section.bot-comic{
         background-color: #f6f6f6;
+        color: rgb(0, 0, 79);
         border-top: 1px solid rgb(158, 155, 155);
         .ax-row{
             padding: 1rem 0;
@@ -58,9 +59,10 @@ div#comic{
                 padding: .5rem 0;
                 font-size: .7rem;
                 border-bottom: 1px solid rgb(158, 155, 155);
-                color: rgb(6, 128, 173);
+                
                 span{
                     display: inline-block;
+                    color: rgb(6, 128, 173);
                     width: 60%;
                 }
             }

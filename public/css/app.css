@@ -198,6 +198,7 @@ div#comic section.top-comic .ax-col-4 img {
 }
 div#comic section.bot-comic {
   background-color: #f6f6f6;
+  color: rgb(0, 0, 79);
   border-top: 1px solid rgb(158, 155, 155);
 }
 div#comic section.bot-comic .ax-row {
@@ -216,10 +217,10 @@ div#comic section.bot-comic .ax-col-5 p {
   padding: 0.5rem 0;
   font-size: 0.7rem;
   border-bottom: 1px solid rgb(158, 155, 155);
-  color: rgb(6, 128, 173);
 }
 div#comic section.bot-comic .ax-col-5 p span {
   display: inline-block;
+  color: rgb(6, 128, 173);
   width: 60%;
 }
 
