@@ -17,8 +17,6 @@
     @include('partials.header')
 
     <main>
-        {{-- creare una base con contenuto per la homepage --}}
-        
         @yield('main-content')
         @yield('main-content-bottom')
     </main>

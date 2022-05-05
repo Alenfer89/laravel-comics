@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('users.guests.home');
+})->name('generic-home');
+
+Route::get('/home', function () {
+    return view('users.guests.home');
 })->name('home');
 
 

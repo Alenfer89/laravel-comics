@@ -2,7 +2,7 @@
 
 
 return [
-    'dcComics' => [
+    'dc Comics' => [
         [
             'text' => 'Characters',
             'url' =>'#'

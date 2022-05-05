@@ -143,6 +143,9 @@ div#products-links nav div.single-main-link a {
 div#index-footer {
   color: rgba(255, 255, 255, 0.5);
 }
+div#index-footer h4 {
+  text-transform: uppercase;
+}
 div#index-footer div.top-footer-container {
   background-image: url("/images/footer-bg.jpg");
   background-repeat: no-repeat;
