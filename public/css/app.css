@@ -160,7 +160,7 @@ div#products-links nav div.single-main-link a {
 
 div#comic section.comic-header {
   background-color: rgb(2, 130, 249);
-  height: 50px;
+  height: 80px;
 }
 div#comic .ax-comic-container {
   width: 60%;
@@ -178,12 +178,23 @@ div#comic section.top-comic .comic-price {
 }
 div#comic section.top-comic .ax-row {
   padding: 4rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 div#comic section.top-comic .ax-col-6 {
   width: 60%;
 }
+div#comic section.top-comic .ax-col-6 p {
+  color: rgb(82, 82, 82);
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
 div#comic section.top-comic .ax-col-4 {
-  width: 40%;
+  width: 35%;
+}
+div#comic section.top-comic .ax-col-4 img {
+  width: 100%;
 }
 
 div#index-footer {

@@ -21,7 +21,7 @@
                     <p> {{ $comic['description'] }} </p>
                 </div>
                 <div class="ax-col-4">
-                    <img src="images/lalala.jpg" alt="buy">
+                    <img src="{{asset('images/lalala.jpg')}}" alt="buy">
                 </div>
             </div>
             
