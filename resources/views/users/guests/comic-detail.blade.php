@@ -38,7 +38,7 @@
                         <span>
                             @foreach ($comic['artists'] as $index => $artist)
                                 @if($index !== array_key_last($comic['artists']))
-                                    <?php echo $artist . ', '; ?> 
+                                    {{$artist . ', '}}
                                 @elseif($index == array_key_last($comic['artists']))
                                 <?php echo $artist . '.'; ?>
                                 @endif
@@ -51,7 +51,7 @@
                                 @if($index !== array_key_last($comic['writers']))
                                     <?php echo $artist . ', '; ?> 
                                 @elseif($index == array_key_last($comic['writers']))
-                                <?php echo $artist . '.'; ?>
+                                    <?php echo $artist . '.'; ?>
                                 @endif
                             @endforeach
                         </span>

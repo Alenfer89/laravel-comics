@@ -36,7 +36,7 @@
                     @if ($key == array_key_last($links))
                         @foreach ($socialsLink as $singleSocial)
                             <div>
-                                <a href="{{ $singleSocial['url'] }}"><img src="images/{{ $singleSocial['img'] }}" alt="{{ $singleSocial['text'] }}"></a>
+                                <a href="{{ $singleSocial['url'] }}"><img src="{{asset("images/". $singleSocial['img']) }}" alt="{{ $singleSocial['text'] }}"></a>
                             </div>
                         @endforeach
                     @endif
