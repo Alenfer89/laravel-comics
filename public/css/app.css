@@ -158,13 +158,32 @@ div#products-links nav div.single-main-link a {
   text-transform: uppercase;
 }
 
-section.top-comic-header {
+div#comic section.comic-header {
   background-color: rgb(2, 130, 249);
   height: 50px;
 }
-
-.ax-comic-container {
+div#comic .ax-comic-container {
   width: 60%;
+  margin: 0 auto;
+}
+div#comic section.top-comic h1 {
+  padding-bottom: 1rem;
+  color: #003f5e;
+}
+div#comic section.top-comic .comic-price {
+  color: white;
+  background-color: #55ba59;
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.8rem;
+}
+div#comic section.top-comic .ax-row {
+  padding: 4rem 0;
+}
+div#comic section.top-comic .ax-col-6 {
+  width: 60%;
+}
+div#comic section.top-comic .ax-col-4 {
+  width: 40%;
 }
 
 div#index-footer {

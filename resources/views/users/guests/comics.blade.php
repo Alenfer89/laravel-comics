@@ -9,12 +9,16 @@
         <div class="my-container">
             <span>current series</span>
             <div class="product-container">
-                @foreach ($comics as $comic)
+                @foreach ($comics as $index => $comic)
                     <div class="comic-card">
                         <div class="img-thumb-container">
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                         </div>
-                        <h5>{{ $comic['title'] }}</h5>
+                        <h5>
+                            <a href="{{ route('comic', ['index' => $index]) }}">
+                                {{ $comic['title'] }}
+                            </a>
+                        </h5>
                     </div>
                 @endforeach
             </div>

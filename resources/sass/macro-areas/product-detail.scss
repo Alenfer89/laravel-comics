@@ -1,8 +1,33 @@
-section.top-comic-header{
-    background-color: $productMainColor;
-    height: 50px;
+div#comic{
+    section.comic-header{
+        background-color: $productMainColor;
+        height: 50px;
+    }
+    
+    .ax-comic-container{
+        width: 60%;
+        margin: 0 auto;
+    }
+    section.top-comic{
+        h1{
+            padding-bottom: 1rem;
+            color: #003f5e;
+        }
+        .comic-price{
+            color: white;
+            background-color: #55ba59;
+            padding: .5rem 2rem;
+            margin-bottom: .8rem;
+        }
+        .ax-row{
+            padding: 4rem 0;
+        }
+        .ax-col-6{
+            width: 60%;
+        }
+        .ax-col-4{
+            width: 40%;
+        }
+    }
 }
 
-.ax-comic-container{
-    width: 60%;
-}
