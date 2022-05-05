@@ -5,24 +5,34 @@
   font-family: "Montserrat", sans-serif;
 }
 
-header#index-header {
+header#index-header section.top-header {
+  height: 2vh;
+  background-color: rgb(2, 130, 249);
+}
+header#index-header section.bot-header {
   height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-header#index-header .img-wrapper {
+header#index-header section.bot-header .img-wrapper {
   height: 100%;
   padding: 1rem;
 }
-header#index-header .img-wrapper img {
+header#index-header section.bot-header .img-wrapper img {
   height: 100%;
 }
-header#index-header ul {
+header#index-header section.bot-header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header#index-header section.bot-header nav ul {
   list-style-type: none;
 }
-header#index-header ul li {
+header#index-header section.bot-header nav ul li {
   text-transform: uppercase;
   display: inline-block;
   padding: 0 0.5rem;
@@ -30,13 +40,21 @@ header#index-header ul li {
   text-align: center;
   border-bottom: 4px solid transparent;
 }
-header#index-header ul li.active {
+header#index-header section.bot-header nav ul li.active {
   color: rgb(2, 130, 249);
   border-bottom: 4px solid rgb(2, 130, 249);
 }
-header#index-header ul li a {
+header#index-header section.bot-header nav ul li a {
   text-decoration: none;
   color: black;
+}
+header#index-header section.bot-header nav div {
+  border-bottom: 4px solid transparent;
+  padding-left: 2rem;
+}
+header#index-header section.bot-header nav div input {
+  text-align: end;
+  border: none;
 }
 
 div#jumbotron {

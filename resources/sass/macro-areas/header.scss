@@ -1,34 +1,55 @@
 header#index-header{
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    .img-wrapper{
-        height: 100%;
-        padding: 1rem;
-        img{
-            height: 100%;
-        }
+    section.top-header{
+        height: 2vh;
+        background-color: $productMainColor;
     }
-    ul{
-        list-style-type: none;
-        li{
-        text-transform: uppercase;
-        display: inline-block;
-        padding: 0 0.5rem;
-        line-height: calc(15vh - 4px);
-        text-align: center;
-        border-bottom: 4px solid transparent;
-        &.active{
-            color: $productMainColor;
-            border-bottom: 4px solid $productMainColor;    
-        }
-            a{
-            text-decoration: none;
-            color: black;
+
+    section.bot-header{
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .img-wrapper{
+            height: 100%;
+            padding: 1rem;
+            img{
+                height: 100%;
             }
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            ul{
+                list-style-type: none;
+                li{
+                    text-transform: uppercase;
+                    display: inline-block;
+                    padding: 0 0.5rem;
+                    line-height: calc(15vh - 4px);
+                    text-align: center;
+                    border-bottom: 4px solid transparent;
+                &.active{
+                    color: $productMainColor;
+                    border-bottom: 4px solid $productMainColor;    
+                }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+            div{
+                border-bottom: 4px solid transparent;
+                padding-left: 2rem;
+                input{
+                    text-align: end;
+                    border: none;
+                }
+            }
+            
         }
     }
 }

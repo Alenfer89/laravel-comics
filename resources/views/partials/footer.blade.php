@@ -19,6 +19,7 @@
                         </div>
                     @endif
                 @endforeach
+            </div>
             <div id="logo-background">
             </div>
         </div>

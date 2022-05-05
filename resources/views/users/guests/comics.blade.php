@@ -3,6 +3,7 @@
 @section('title', '- Our Comics')
 
 @section('main-content')
+
 <div id="index-main">
     <div id="product-background">
         <div class="my-container">
