@@ -41,20 +41,43 @@ header#index-header{
                     }
                 }
             }
-            div{
-                border-bottom: 4px solid transparent;
-                padding-left: 2rem;
-                input{
-                    text-align: end;
-                    border: none;
+        }
+        div.input-group{
+            border-bottom: 4px solid transparent;
+            padding-left: 2rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            button{
+                border: none;
+                display: inline-block;
+                margin: 0 auto;
+                background-color: $productMainColor;
+                color: white;
+                text-transform: uppercase;
+                font-size: .8rem;
+                font-weight: 700;
+                padding: .5rem 1.5rem;
+                &:hover{
+                    cursor: pointer;
+                    opacity: .7;
+                }
+                &:active{
+                    opacity: .9;
                 }
             }
-            
+            input{
+                margin-left: .5rem;
+                border: 3px solid $productMainColor;
+                height: 2rem;
+
+            }
         }
     }
 }
 div#jumbotron{
-    height: 50vh;
+    height: 75vh;
     width: 100%;
     background-image: url('/images/jumbotron.jpg');
     background-repeat: no-repeat;

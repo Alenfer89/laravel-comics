@@ -23,10 +23,14 @@
                 <li><a href="{{ route('home') }}">NEWS</a></li>
                 <li><a href="{{ route('home') }}">SHOP</a></li>
             </ul>
-            <div>
+            {{-- <div>
                 <input type="text" placeholder="Search">
-            </div>
+            </div> --}}
         </nav>
+        <div class="input-group">
+            <button class="" type="button" id="button-addon1">Search</button>
+            <input type="text" class="form-control" placeholder="Start a search" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
     </section>
 </header>
 <div id="jumbotron"></div>

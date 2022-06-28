@@ -48,17 +48,40 @@ header#index-header section.bot-header nav ul li a {
   text-decoration: none;
   color: black;
 }
-header#index-header section.bot-header nav div {
+header#index-header section.bot-header div.input-group {
   border-bottom: 4px solid transparent;
   padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
-header#index-header section.bot-header nav div input {
-  text-align: end;
+header#index-header section.bot-header div.input-group button {
   border: none;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgb(2, 130, 249);
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+}
+header#index-header section.bot-header div.input-group button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+header#index-header section.bot-header div.input-group button:active {
+  opacity: 0.9;
+}
+header#index-header section.bot-header div.input-group input {
+  margin-left: 0.5rem;
+  border: 3px solid rgb(2, 130, 249);
+  height: 2rem;
 }
 
 div#jumbotron {
-  height: 50vh;
+  height: 75vh;
   width: 100%;
   background-image: url("/images/jumbotron.jpg");
   background-repeat: no-repeat;
