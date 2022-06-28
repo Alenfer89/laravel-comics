@@ -43,6 +43,14 @@ div#index-main{
                     }
                     h5{
                         text-transform: uppercase;
+                        a{
+                            text-decoration: none;
+                            color: $productMainColor;
+                            &:visited{
+                                color: rgb(9, 88, 162);
+                                opacity: .5;
+                            }
+                        }
                     }
                 }
             }

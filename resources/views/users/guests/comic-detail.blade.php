@@ -6,7 +6,9 @@
 <div id="comic">
     <section class="comic-header">
         <div class="ax-comic-container">
-    
+            <div class="img-container">
+                <img src="{{ $comic['thumb'] }}" alt="">
+            </div>
         </div>
     </section>
     
@@ -85,5 +87,4 @@
         </div>
     </section>
 </div>
-@dump($comic['artists'])
 @endsection

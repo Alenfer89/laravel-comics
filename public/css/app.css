@@ -134,6 +134,14 @@ div#index-main div#product-background div.my-container div.product-container div
 div#index-main div#product-background div.my-container div.product-container div.comic-card h5 {
   text-transform: uppercase;
 }
+div#index-main div#product-background div.my-container div.product-container div.comic-card h5 a {
+  text-decoration: none;
+  color: rgb(2, 130, 249);
+}
+div#index-main div#product-background div.my-container div.product-container div.comic-card h5 a:visited {
+  color: rgb(9, 88, 162);
+  opacity: 0.5;
+}
 div#index-main div#product-background div.my-container button {
   border: none;
   display: block;
@@ -188,6 +196,13 @@ div#comic section.comic-header {
 div#comic .ax-comic-container {
   width: 60%;
   margin: 0 auto;
+  position: relative;
+}
+div#comic .img-container {
+  position: absolute;
+  left: 0;
+  bottom: -55px;
+  box-shadow: 0px 0px 30px -5px rgb(2, 130, 249);
 }
 div#comic section.top-comic h1 {
   padding-bottom: 1rem;
