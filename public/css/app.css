@@ -284,7 +284,7 @@ div#index-footer div.top-footer-container div.top-footer div.lists-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: start;
+  justify-content: flex-start;
 }
 div#index-footer div.top-footer-container div.top-footer div.list-wrapper {
   margin-right: 1.6rem;
